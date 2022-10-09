@@ -12,7 +12,7 @@ def findMedian(numbers):
         middleValue1 = math.floor(len(numbers) / 2)
         middleValue2 = middleValue1 -1
         middleSum = (numbers[middleValue1]) + (numbers[middleValue2])
-        median = numbers[middleSum / 2]
+        median = middleSum / 2
     return median
     
 while True:
